@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: be.hogent.svanimpe
+OpenIDE-Module-Localizing-Bundle: be/hogent/svanimpe/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
