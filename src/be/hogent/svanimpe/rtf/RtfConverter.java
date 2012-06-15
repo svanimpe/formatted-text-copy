@@ -1,4 +1,4 @@
-package be.hogent.svanimpe;
+package be.hogent.svanimpe.rtf;
 
 import java.awt.Color;
 import java.util.ArrayList;

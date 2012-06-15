@@ -1,4 +1,4 @@
-package be.hogent.svanimpe;
+package be.hogent.svanimpe.rtf;
 
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
@@ -12,7 +12,7 @@ import org.openide.cookies.EditorCookie;
 import org.openide.util.NbBundle.Messages;
 
 @ActionID(category = "Edit",
-id = "be.hogent.svanimpe.CopyAsRtf")
+id = "be.hogent.svanimpe.rtf.CopyAsRtf")
 @ActionRegistration(displayName = "#CTL_CopyAsRtf")
 @ActionReferences({
     @ActionReference(path = "Menu/Edit", position = 1150)

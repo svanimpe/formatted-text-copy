@@ -1,4 +1,4 @@
-package be.hogent.svanimpe;
+package be.hogent.svanimpe.rtf;
 
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
