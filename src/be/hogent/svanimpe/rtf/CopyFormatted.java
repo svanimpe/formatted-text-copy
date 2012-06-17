@@ -12,17 +12,17 @@ import org.openide.cookies.EditorCookie;
 import org.openide.util.NbBundle.Messages;
 
 @ActionID(category = "Edit",
-id = "be.hogent.svanimpe.rtf.CopyAsRtf")
-@ActionRegistration(displayName = "#CTL_CopyAsRtf")
+id = "be.hogent.svanimpe.rtf.CopyFormatted")
+@ActionRegistration(displayName = "#CTL_CopyFormatted")
 @ActionReferences({
     @ActionReference(path = "Menu/Edit", position = 1150)
 })
-@Messages("CTL_CopyAsRtf=Copy as RTF")
-public final class CopyAsRtf implements ActionListener {
+@Messages("CTL_CopyFormatted=Copy Formatted")
+public final class CopyFormatted implements ActionListener {
 
     private final EditorCookie context;
 
-    public CopyAsRtf(EditorCookie context) {
+    public CopyFormatted(EditorCookie context) {
         this.context = context;
     }
 
