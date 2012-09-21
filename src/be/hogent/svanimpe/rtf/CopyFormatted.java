@@ -6,17 +6,16 @@ import java.awt.event.ActionListener;
 import javax.swing.JEditorPane;
 import org.openide.awt.ActionID;
 import org.openide.awt.ActionReference;
-import org.openide.awt.ActionReferences;
 import org.openide.awt.ActionRegistration;
 import org.openide.cookies.EditorCookie;
 import org.openide.util.NbBundle.Messages;
 
-@ActionID(category = "Edit",
+@ActionID(
+    category = "Build",
 id = "be.hogent.svanimpe.rtf.CopyFormatted")
-@ActionRegistration(displayName = "#CTL_CopyFormatted")
-@ActionReferences({
-    @ActionReference(path = "Menu/Edit", position = 1150)
-})
+@ActionRegistration(
+    displayName = "#CTL_CopyFormatted")
+@ActionReference(path = "Menu/Edit", position = 1175)
 @Messages("CTL_CopyFormatted=Copy Formatted")
 public final class CopyFormatted implements ActionListener {
 
