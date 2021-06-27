@@ -1,6 +1,8 @@
 # Formatted Text Copy plugin for NetBeans.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/8u2ruwfyseeve4mg?svg=true)](https://ci.appveyor.com/project/javatlacati/formatted-text-copy)
+Windows Build: [![Build status](https://ci.appveyor.com/api/projects/status/8u2ruwfyseeve4mg?svg=true)](https://ci.appveyor.com/project/javatlacati/formatted-text-copy)
+
+Linux Build: [![Build Status](https://travis-ci.com/javatlacati/formatted-text-copy.svg?branch=master)](https://travis-ci.com/javatlacati/formatted-text-copy)
 
 Original project: https://github.com/svanimpe/formatted-text-copy
 This project is maintained at: https://github.com/javatlacati/formatted-text-copy
