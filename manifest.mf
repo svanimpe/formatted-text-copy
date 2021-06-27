@@ -1,5 +1,0 @@
-Manifest-Version: 1.0
-OpenIDE-Module: be.hogent.svanimpe.rtf
-OpenIDE-Module-Localizing-Bundle: be/hogent/svanimpe/rtf/Bundle.properties
-OpenIDE-Module-Specification-Version: 1.0
-

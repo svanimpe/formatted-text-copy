@@ -1,5 +1,6 @@
 package be.hogent.svanimpe.rtf;
 
+import java.awt.HeadlessException;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -43,7 +44,7 @@ public final class CopyFormatted implements ActionListener {
                 // Wrap the result in a Transferable object and paste it on the clipboard
                 Toolkit.getDefaultToolkit().getSystemClipboard().setContents(new RtfTransferable(rtf), null);
             }
-        } catch (Exception ex) {
+        } catch (HeadlessException ex) {
             // Catch every exception and write a stack trace to the output window, otherwise the plugin appears to do nothing
             Util.printException(ex);
         }
