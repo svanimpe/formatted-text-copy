@@ -107,7 +107,7 @@ public class RtfConverter {
     /*
      * Build the RTF content based on the pane's selected content.
      */
-    public String buildContent() {
+    private String buildContent() {
 
         final FontColorSettings fcs = MimeLookup.getLookup(
                 MimePath.get(pane.getContentType())

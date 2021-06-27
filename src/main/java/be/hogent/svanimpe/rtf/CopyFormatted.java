@@ -31,16 +31,16 @@ public final class CopyFormatted implements ActionListener {
         try {
             // Make sure an editor pane is open and that it has some selected content
             JEditorPane[] panes = context.getOpenedPanes();
-            if (panes == null || panes[0].getSelectionStart() == panes[0].getSelectionEnd()) {
+            if (null == panes || panes[0].getSelectionStart() == panes[0].getSelectionEnd()) {
                 Util.println("No Selection Found");
             } else {
                 // Initialize the converter and ask it to convert the selected content
                 RtfConverter converter = new RtfConverter(panes[0]);
                 String rtf = converter.convertSelection();
-                
+
                 // Print the result to an output window for reference
                 Util.println("RTF Output:\n" + rtf);
-                
+
                 // Wrap the result in a Transferable object and paste it on the clipboard
                 Toolkit.getDefaultToolkit().getSystemClipboard().setContents(new RtfTransferable(rtf), null);
             }
